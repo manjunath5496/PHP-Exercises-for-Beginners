@@ -775,7 +775,7 @@ define('a', 7);
 for($i=1; $i<=10; $i++)   
 {   
   echo "7 * $i = ", $i*a;   
-   echo '<br>'; 
+  echo '<br>'; 
 }  
 ?>
 
