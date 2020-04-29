@@ -695,37 +695,29 @@ $num=$num+1;
 
 ### **Question:**
 
-> ***Write a program to change the capitalization of all letters in a given string.***
+> ***Write a program to reverse a given number.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function change_case(txt) {
-    var str1 = "";
-    for (var i = 0; i < txt.length; i++) {
-        if (/[A-Z]/.test(txt[i])) str1 += txt[i].toLowerCase();
-        else str1 += txt[i].toUpperCase();
-    }
-    return str1;
-}
-document.write(change_case("germany"));
-</script>
-</body>
-</html>
-
+<?php  
+$num = 253;  
+$rev = 0;  
+while ($num > 1)  
+{  
+$rem = $num % 10;  
+$rev = ($rev * 10) + $rem;  
+$num = ($num / 10);   
+}  
+echo "$rev";  
+?>  
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/26.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 27
