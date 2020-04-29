@@ -447,23 +447,18 @@ echo "the sum of two numbers = $sum ";
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-<p id="demo"></p>
-</body>
-</html> 
+```php language
+<?php
+    $currentDateTime = date('Y-m-d H:i:s');
+    echo $currentDateTime;
+?>
+
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/17.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -513,27 +508,19 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<p id="demo"></p>
-<script>
-function toCelsius(f) {
-  return (5/9) * (f-32);
-}
-document.getElementById("demo").innerHTML = toCelsius(77);
-</script>
-</body>
-</html>
+```php language
+<?php  
+ $far = 89;  
+ $cel=($far - 32) * (5/9);
+ echo "Temperature in Fahrenheit is : $far". "<br />"; 
+ echo "Temperature in Celcius is : $cel" ; 
+  ?> 
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/19.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 20
