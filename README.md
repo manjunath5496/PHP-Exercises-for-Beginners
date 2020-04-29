@@ -789,39 +789,33 @@ for($i=1; $i<=10; $i++)
 
 ### **Question:**
 
-> ***Write a program to check whether there is at least one element which occurs in two given sorted arrays of integers.***
+> ***Write a program to print the first 12 numbers of a Fibonacci series.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function check_common_element(arra1, arra2) {
-  for (var i = 0; i < arra1.length; i++)
-  {
-    if (arra2.indexOf(arra1[i]) != -1) 
-      return true;
-  }
-  return false;
-}
-document.write(check_common_element([1,2,3], [3,4,5]));
-</script>
-</body>
-</html>
-
-
-
+<?php  
+$num = 0;  
+$n1 = 0;  
+$n2 = 1;  
+echo $n1.' '.$n2.' ';  
+while ($num < 10 )  
+{  
+    $n3 = $n2 + $n1;  
+    echo $n3.' ';  
+    $n1 = $n2;  
+    $n2 = $n3;  
+    $num = $num + 1; 
+    }
+?>  
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/29.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -862,8 +856,6 @@ document.write(max_difference([1, 2, 3, 8, 9]));
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/30.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 
