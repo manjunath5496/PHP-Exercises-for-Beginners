@@ -620,27 +620,18 @@ print_r(vowel_Count('Python'));
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var num = [1,2,3,4]
-var sum = 0;
-for(var i = 0; i < num.length; i++){
-  sum += num[i]
-}
-document.write(sum);
-</script>
-</body>
-</html>
+
+<?php
+$a=array(1,2,3,4);
+echo array_sum($a);
+?>
+
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/23.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 24
