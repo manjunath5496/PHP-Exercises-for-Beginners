@@ -724,42 +724,38 @@ echo "$rev";
 
 ### **Question:**
 
-> ***Write a program to remove all characters from a given string that appear more than once.***
+> ***Write a program to check whether 507 is Armstrong or not.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function remove_duplicate_cchars(str) {
-  var arr_char = str.split("");
-  var result_arr = [];
-
-  for (var i = 0; i < arr_char.length; i++) {
-    if (str.indexOf(arr_char[i]) === str.lastIndexOf(arr_char[i]))
-      result_arr.push(arr_char[i]);
-    }
-
-  return result_arr.join("");
-}
-document.write(remove_duplicate_cchars("abcdabc"));
-</script>
-</body>
-</html>
-
-
+<?php  
+$num=507;  
+$total=0;  
+$x=$num;  
+while($x!=0)  
+{  
+$rem=$x%10;  
+$total=$total+$rem*$rem*$rem;  
+$x=$x/10;  
+}  
+if($num==$total)  
+{  
+echo "Armstrong number";  
+}  
+else  
+{  
+echo "No it is not an armstrong number";  
+}  
+?>  
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/27.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 28
