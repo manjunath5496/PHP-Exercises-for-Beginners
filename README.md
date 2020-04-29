@@ -632,8 +632,6 @@ echo array_sum($a);
 <strong>Solution: </strong>
 
 ```php language
-
-<!DOCTYPE html>
 <?php  
 $num=253;  
 if($num%2==0)  
