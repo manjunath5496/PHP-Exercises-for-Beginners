@@ -224,8 +224,6 @@ echo("\n the round off of a number = $num2");
 ?>
 
 
-
-
 ```
 ----------------------------------------
 
@@ -255,8 +253,6 @@ echo ("\n The decremented value of  $num1 = $num4 ");
 echo ("\n The incremented value of  $num2 = $num5 ");
 echo ("\n The decremented value of  $num2 = $num6 ");
 ?>
-
-
 
 
 ```
@@ -519,27 +515,26 @@ echo "the sum of two numbers = $sum ";
 
 ### **Question:**
 
-> ***Write a program to get the website URL (loading page).***
+> ***Write a program to print factorial of a number..***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-alert(document.URL);
-</script>
-</body>
-</html>
+```php language
+<?php  
+$num = 5;  
+$fact = 1;  
+for ($x=$num; $x>=1; $x--)   
+{  
+  $fact = $fact * $x;  
+}  
+echo "$fact";  
+?> 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/20.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 
