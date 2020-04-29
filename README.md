@@ -653,37 +653,41 @@ else
 
 ### **Question:**
 
-> ***Write a program to find the number of even digits in a given integer.***
+> ***Write a program to list the first 15 prime numbers.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function even_digits(num) {
-  var ctr = 0;
-  while (num) {
-    ctr += num % 2 === 0;
-    num = Math.floor(num / 10);
-  }
-  return ctr;
-}
-document.write(even_digits(124));
-</script>
-</body>
-</html>
+<?php  
+$count = 0;  
+$num = 2;  
+while ($count < 15 )  
+{  
+$div=0;  
+for ( $i=1; $i<=$num; $i++)  
+{  
+if (($num%$i)==0)  
+{  
+$div++;  
+}  
+}  
+if ($div<3)  
+{  
+echo $num." </br> ";  
+$count=$count+1;  
+}  
+$num=$num+1;  
+}  
+?> 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/25.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
