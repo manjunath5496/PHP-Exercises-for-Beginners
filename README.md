@@ -625,36 +625,30 @@ echo array_sum($a);
 
 ### **Question:**
 
-> ***Write a program to create the dot products of two given 3D vectors.***
+> ***Write a program to check whether a number is Even or Odd.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
 <!DOCTYPE html>
-<html>
-<body>
-<script>
-function dot_product(vector1, vector2) {
-  var result = 0;
-  for (var i = 0; i < 3; i++) {
-    result += vector1[i] * vector2[i];
-  }
-  return result;
-}
-document.write(dot_product([1,2,3], [1,2,3]))
-</script>
-</body>
-</html>
-
+<?php  
+$num=253;  
+if($num%2==0)  
+{  
+ echo "$num is Even Number";   
+}  
+else  
+{  
+ echo "$num is Odd Number";  
+}   
+?>  
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/24.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 25
