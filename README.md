@@ -215,27 +215,20 @@ echo("\n the cube root of a number = $num2");
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var x ;
-var z;
-x=4.5;
-z = Math.round(x);
-document.write(" The round off a number z is: " + z);
-</script>
-</body>
-</html>
+```php language
+
+<?php
+$num1 = 4.5;
+$num2 = round ($num1);
+echo("\n the round off of a number = $num2");
+?>
+
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/9.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 
@@ -249,38 +242,26 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var x ;
-var y;
-var z;
-var p;
-var a;
-var b;
-x=4;
-y=6;
-z=x+1;
-p=x-1;
-a = y+1;
-b= y-1;
-document.write(" The incremented value of  x  is: " + z);
-document.write(" The decremented value of  x  is: " + p);
-document.write(" The incremented value of  y  is: " + a);
-document.write(" The decremented value of  y  is: " + b);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 =2;
+$num2=3;
+$num3 = $num1 +1;
+$num4 = $num1 - 1;
+$num5 = $num2 +1;
+$num6 = $num2 - 1;
+echo ("\n The incremented value of  $num1 = $num3 ");
+echo ("\n The decremented value of  $num1 = $num4 ");
+echo ("\n The incremented value of  $num2 = $num5 ");
+echo ("\n The decremented value of  $num2 = $num6 ");
+?>
+
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/10.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 11
@@ -293,29 +274,22 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var x ;
-var y;
-x=4;
-y=6;
-if(x>y){
-document.write(" x is greater than y");
+```php language
+<?php
+$x = 4.5;
+$y=5;
+if($x>$y){
+echo (" x is greater than y");
 } else {
-document.write(" y is greater than x");
+echo (" y is greater than x");
 }
-</script>
-</body>
-</html>
+?>
+
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/11.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 # Question 12
@@ -328,24 +302,18 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var i ;
-for (i=1; i<=10; i++)
-document.write("" +  i);
-</script>
-</body>
-</html>
+```php language
+<?php
+for ($i=1; $i<=10; $i++)
+echo (" \n $i");
+?>
+
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/12.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 # Question 13
@@ -358,25 +326,22 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var i=1 ;
-while (i<=10)
-document.write("" +  i++);
-</script>
-</body>
-</html>
+```php language
+<?php  
+$i = 1;
+while($i <= 10) {
+echo "\n  $i ";
+$i++;
+} 
+?>
+
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/13.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -390,26 +355,22 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var i=1 ;
-do{
-document.write("" +  i++);
-} while (i<10)
-</script>
-</body>
-</html>
+```php language
+<?php  
+$i = 1;
+do {
+echo "\n $i ";
+$i++;
+} while($i <= 9);
+?>
+
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/14.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -423,20 +384,18 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var i, avg, sum = 0;
-for( i=1; i<=10; i++)
-sum = sum + i;
-avg = sum/10;
-document.write("<br> sum of the first 10 numbers =  </br>" + sum);
-document.write("<br> average of the first10 numbers =  </br>" + avg);
-</script>
-</body>
-</html>
+```php language
+<?php
+$i; 
+$avg; 
+$sum = 0;
+for( $i=1; $i<=10; $i++)
+$sum = $sum + $i;
+$avg = $sum/10;
+echo "\n sum of the first 10 numbers = $sum ";
+echo"\n average of the first 10 numbers = $avg  ";
+?>
+
 
 
 
@@ -444,8 +403,7 @@ document.write("<br> average of the first10 numbers =  </br>" + avg);
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/15.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -453,24 +411,22 @@ Try it Yourself &raquo; </a></div>
 
 ### **Question:**
 
-> ***Write a program to add two numbers using JavaScript function.***
+> ***Write a program to add two numbers using PHP function.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function addition(a, b) {
-return a + b;
+```php language
+<?php
+function addition($a, $b) {
+return $a + $b;
 }
-document.write("" + addition(4, 3));
-</script>
-</body>
-</html>
+$sum = addition(4, 3);
+echo "the sum of two numbers = $sum ";
+?>
+
+
 
 
 
@@ -478,8 +434,6 @@ document.write("" + addition(4, 3));
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/16.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 
