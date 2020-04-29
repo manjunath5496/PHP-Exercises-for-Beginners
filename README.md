@@ -823,7 +823,7 @@ while ($num < 10 )
 
 ### **Question:**
 
-> ***Write a program to swap two numbers 45 and 78 using a third variable.***
+> ***Write a program to swap two numbers 65 and 98 using a third variable.***
 
 ---------------------------------------
 
@@ -832,8 +832,8 @@ while ($num < 10 )
 ```php language
 
 <?php  
-$a = 45;  
-$b = 78;   
+$a = 65;  
+$b = 98;   
 $c = $a;  
 $a = $b;  
 $b = $c;  
