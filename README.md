@@ -30,29 +30,20 @@ echo "Hello World!";
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<p>A typical addition operation adds two numbers and produces a new number.</p>
-<script>
-var x ;
-var y;
-var z;
-x =100;
-y = 200;
-z = x+ y;
-document.write(" The sum of two numbers is:     " + z);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 =1;
+$num2=5;
+$sum = $num1 + $num2;
+echo "Sum of the two numbers is : $sum";
+?>
+
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/2.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 # Question 3
@@ -65,30 +56,20 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<p>A typical subtraction operation subtracts two numbers and produces a new number.</p>
-<script>
-var x ;
-var y;
-var z;
-x=300;
-y = 200;
-z = x-y;
-document.write(" The difference of two numbers is:     " + z);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 =5;
+$num2=1;
+$sub = $num1 - $num2;
+echo "difference of the two numbers is : $sub";
+?>
+
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/3.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 4
