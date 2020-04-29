@@ -589,28 +589,24 @@ for ($i=($len-1) ; $i >= 0 ; $i--)
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function vowel_Count(str)
-{ 
+```php language
+<?php
 
-  return str.replace(/[^aeiou]/g, "").length; 
+function vowel_Count($string)
+{
+    preg_match_all('/[aeiou]/i', $string, $matches);
+    return count($matches[0]);
 }
-document.write(vowel_Count("Python")); 
-</script>
-</body>
-</html>
+print_r(vowel_Count('Python'));
+
+
+?>
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/22.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 
