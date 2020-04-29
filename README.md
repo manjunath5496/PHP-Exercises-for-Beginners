@@ -823,36 +823,23 @@ while ($num < 10 )
 
 ### **Question:**
 
-> ***Write a program to find the maximum difference between any two adjacent elements of a given array of integers.***
+> ***Write a program to swap two numbers 45 and 78 using a third variable.***
 
 ---------------------------------------
 
 <strong>Solution: </strong>
 
-```JS language
+```php language
 
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function max_difference(arr) {
-	var max = -1;
-    var temp;
-	for (var i = 0; i < arr.length - 1; i++)
-      {
-		temp = Math.abs(arr[i] - arr[i + 1]);
-		max = Math.max(max, temp);
-	  }
-	return max;
-}
-
-document.write(max_difference([1, 2, 3, 8, 9]));
-</script>
-</body>
-</html>
-
-
-
+<?php  
+$a = 45;  
+$b = 78;   
+$c = $a;  
+$a = $b;  
+$b = $c;  
+echo "After swapping:<br><br>";  
+echo "a =".$a."  b=".$b;  
+?>  
 ```
 ----------------------------------------
 
