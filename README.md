@@ -82,22 +82,14 @@ echo "difference of the two numbers is : $sub";
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<p>A typical division operation divides two numbers and produces a new number.</p>
-<script>
-var x ;
-var y;
-var z;
-x=300;
-y = 200;
-z = x/y;
-document.write(" The division of two numbers is:     " + z);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 =6;
+$num2=2;
+$div = $num1 / $num2;
+echo "the division of two numbers is : $div";
+?>
+
 
 
 
@@ -106,8 +98,7 @@ document.write(" The division of two numbers is:     " + z);
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/4.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -121,28 +112,19 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<p> A typical multiplication operation multiplies two numbers and produces a new number.</p>
-<script>
-var x ;
-var y;
-var z;
-x=300;
-y = 200;
-z = x* y;
-document.write(" The multiplication of two numbers is:     " + z);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 = 6;
+$num2 = 2;
+$mult = $num1 * $num2;
+echo "the product of two numbers is : $mult";
+?>
+
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/5.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 
@@ -156,26 +138,21 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var r ;
-var area;
-r=3;
-area = 4*3.14* r* r;
-document.write(" The area of the circle is:     " + area +" centimeter square");
-</script>
-</body>
-</html>
+```php language
+<?php
+$radius = 2.0;
+$pi = 3.14159;
+$area = $pi * $radius * $radius;
+echo("\n radius = $radius centimeter");
+echo("\n area = $area centimeter square");
+?>
+
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/6.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 # Question 7
@@ -188,27 +165,20 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var x ;
-var z;
-x=4;
-z = Math.sqrt(x);
-document.write(" The square root of a number z is: " + z);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 = 4.0;
+$num2 = sqrt($num1);
+echo("The square root of a number = $num2");
+?>
+
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/7.html" target="_blank">
-Try it Yourself &raquo; </a></div>
+
 </br>
 
 # Question 8
@@ -221,27 +191,18 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-var x ;
-var z;
-x=4;
-z = Math.cbrt(x);
-document.write(" The cube root of a number z is: " + z);
-</script>
-</body>
-</html>
+```php language
+<?php
+$num1 = 6.0;
+$num2 = pow(($num1), 1/3);
+echo("\n the cube root of a number = $num2");
+?>
 
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/8.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 # Question 9
