@@ -561,26 +561,20 @@ Try it Yourself &raquo; </a></div>
 
 <strong>Solution: </strong>
 
-```JS language
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-function string_reverse(str) 
-{
-    return str.split("").reverse().join("");
-}
-document.write(string_reverse("JavaScript"));
-</script>
-</body>
-</html>
+```php language
+<?php  
+$str = "JavaScript";  
+$len = strlen($str);  
+for ($i=($len-1) ; $i >= 0 ; $i--)   
+{  
+  echo $str[$i];  
+}  
+?>  
 
 
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/21.html" target="_blank">
-Try it Yourself &raquo; </a></div>
 </br>
 
 
