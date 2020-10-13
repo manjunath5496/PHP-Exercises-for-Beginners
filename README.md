@@ -242,7 +242,9 @@ echo("The round off of a number = $num2");
 ```
 ----------------------------------------
 
-</br>
+<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code9/index.php" target="_blank">
+Try it Yourself &raquo; </a>
+</br></br>
 
 
 # Question 10
