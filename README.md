@@ -18,9 +18,7 @@ echo "Hello World!";
 ----------------------------------------
 
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code1/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 2
 
@@ -45,9 +43,7 @@ echo "Sum of the two numbers is : $sum";
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code2/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 3
 
@@ -73,9 +69,7 @@ echo "difference of the two numbers is : $sub";
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code3/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 4
 
@@ -104,9 +98,7 @@ echo "the division of two numbers is : $div";
 ----------------------------------------
 
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code4/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 
 # Question 5
@@ -132,9 +124,7 @@ echo "the product of two numbers is : $mult";
 ----------------------------------------
 
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code5/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 
 
@@ -163,9 +153,7 @@ echo("<br> area = $area centimeter square");
 ----------------------------------------
 
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code6/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 7
 
@@ -190,9 +178,7 @@ echo("The square root of a number = $num2");
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code7/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 8
 
@@ -216,9 +202,7 @@ echo("The cube root of a number = $num2");
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code8/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 9
 
@@ -242,9 +226,7 @@ echo("The round off of a number = $num2");
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code9/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 
 # Question 10
@@ -275,9 +257,7 @@ echo ("The decremented value of  $num2 = $num6 ");
 ```
 ----------------------------------------
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code10/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 
 # Question 11
@@ -306,9 +286,7 @@ echo (" y is greater than x");
 ----------------------------------------
 
 
-<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code11/index.php" target="_blank">
-Try it Yourself &raquo; </a>
-</br></br>
+</br>
 
 # Question 12
 
