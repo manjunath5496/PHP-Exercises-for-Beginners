@@ -265,17 +265,20 @@ $num3 = $num1 +1;
 $num4 = $num1 - 1;
 $num5 = $num2 +1;
 $num6 = $num2 - 1;
-echo ("<br> The incremented value of  $num1 = $num3 ");
-echo ("<br> The decremented value of  $num1 = $num4 ");
-echo ("<br> The incremented value of  $num2 = $num5 ");
-echo ("<br> The decremented value of  $num2 = $num6 ");
+echo ("The incremented value of  $num1 = $num3 ");
+echo ("The decremented value of  $num1 = $num4 ");
+echo ("The incremented value of  $num2 = $num5 ");
+echo ("The decremented value of  $num2 = $num6 ");
 ?>
 
 
 ```
 ----------------------------------------
 
-</br>
+<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code10/index.php" target="_blank">
+Try it Yourself &raquo; </a>
+</br></br>
+
 
 # Question 11
 
