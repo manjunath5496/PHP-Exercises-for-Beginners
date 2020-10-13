@@ -884,6 +884,33 @@ PHP-Based Web Application Frameworks</a></li>
  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(17).pdf" style="text-decoration:none;">PHP Framework for Database Management Based on MVC Pattern </a></li>
   <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(18).pdf" style="text-decoration:none;">T100 – A Content Management System for PHP Web Applications Development </a></li>
  
-
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(19).pdf" style="text-decoration:none;"> Generating a PHP Metamodel using Xtext Framework</a></li>
+   <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(20).pdf" style="text-decoration:none;">PHP modernization approach generating KDM models from PHP legacy code</a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(21).pdf" style="text-decoration:none;">Anti-WebShell PHP Backdoor Scanner pada Linux Server</a></li>
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(22).pdf" style="text-decoration:none;">Deploy PHP on Heroku</a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(23).pdf" style="text-decoration:none;">PHP MySQL to MySQLi migration </a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(24).pdf" style="text-decoration:none;">Simplification of Arithmetic and Variable Script in Hypertext Preprocessor (PHP)</a></li>
+  
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(25).pdf" style="text-decoration:none;">Firebase And MySQL Performances For Data Exchanging With CSV File In PHP-based Website</a></li>
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(26).pdf" style="text-decoration:none;">PHP PDO MYSQL</a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(27).pdf" style="text-decoration:none;">Teaching The Basis Of Communication With The Server In PHP </a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(28).pdf" style="text-decoration:none;">Evaluation of PHP Framework Measured Using Object-Oriented Metrics with the Analytic Hierarchy Process</a></li>
+    <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(29).pdf" style="text-decoration:none;">Reasoned PHP</a></li>
+  
+  
+   
+  
+  
+  
+  
+  
 </ul>
 
