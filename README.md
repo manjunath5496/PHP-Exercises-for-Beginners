@@ -348,7 +348,7 @@ echo ("$i");
 <?php  
 $i = 1;
 while($i <= 10) {
-echo "<br>  $i ";
+echo "$i ";
 $i++;
 } 
 ?>
@@ -377,7 +377,7 @@ $i++;
 <?php  
 $i = 1;
 do {
-echo "<br> $i ";
+echo "$i ";
 $i++;
 } while($i <= 9);
 ?>
@@ -410,8 +410,8 @@ $sum = 0;
 for( $i=1; $i<=10; $i++)
 $sum = $sum + $i;
 $avg = $sum/10;
-echo "<br> sum of the first 10 numbers = $sum ";
-echo"<br> average of the first 10 numbers = $avg  ";
+echo "sum of the first 10 numbers = $sum ";
+echo"average of the first 10 numbers = $avg  ";
 ?>
 
 
