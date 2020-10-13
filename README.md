@@ -153,8 +153,8 @@ Try it Yourself &raquo; </a>
 $radius = 2.0;
 $pi = 3.14159;
 $area = $pi * $radius * $radius;
-echo("\n radius = $radius centimeter");
-echo("\n area = $area centimeter square");
+echo("<br> radius = $radius centimeter");
+echo("<br> area = $area centimeter square");
 ?>
 
 
@@ -163,7 +163,9 @@ echo("\n area = $area centimeter square");
 ----------------------------------------
 
 
-</br>
+<a class="w3-btn w3-margin-bottom" href="http://www.myw3schools.com/codes/code6/index.php" target="_blank">
+Try it Yourself &raquo; </a>
+</br></br>
 
 # Question 7
 
