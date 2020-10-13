@@ -846,5 +846,27 @@ echo "a =".$a."  b=".$b;
 </br>
 
 
+<h2>   Papers </h2>
 
+<ul>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(1).pdf" style="text-decoration:none;">Use of Design Patterns in
+PHP-Based Web Application Frameworks</a></li>
+
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(2).pdf" style="text-decoration:none;">A Research Paper OnWebsite Development OptimizationUsing Xampp/PHP </a></li>
+
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(3).pdf" style="text-decoration:none;">Analysis and Practical Application of PHP Frameworks in Development of Web Information Systems</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(4).pdf" style="text-decoration:none;">Application of PHP and MySQL for search and retrieval Web services in Web information systems</a></li>                              
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(5).pdf" style="text-decoration:none;">Web application development with Laravel PHP Framework version 4 </a></li>
+<li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(6).pdf" style="text-decoration:none;">A Comparison Study of Web Based Application Development Using PHP and ASP.NET</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(7).pdf" style="text-decoration:none;">Application of Web Content Management System (WCMS) For Website Development And Maintenance Tools Using PHP</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(8).pdf" style="text-decoration:none;"> Securing PHP – Approaches to Web Application security</a></li>
+   <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(9).pdf" style="text-decoration:none;">Performance Comparison of QEC Network based JAVA Application and Web based PHP Application</a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(10).pdf" style="text-decoration:none;">A new model for the selection of web development frameworks: application to PHP frameworks </a></li> 
+
+</ul>
 
