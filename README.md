@@ -89,7 +89,7 @@ Try it Yourself &raquo; </a>
 
 ```php language
 <?php
-$num1 =6;
+$num1=6;
 $num2=2;
 $div = $num1 / $num2;
 echo "the division of two numbers is : $div";
