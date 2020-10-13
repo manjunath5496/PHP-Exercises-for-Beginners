@@ -866,7 +866,24 @@ PHP-Based Web Application Frameworks</a></li>
    <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(9).pdf" style="text-decoration:none;">Performance Comparison of QEC Network based JAVA Application and Web based PHP Application</a></li>
   
    
- <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(10).pdf" style="text-decoration:none;">A new model for the selection of web development frameworks: application to PHP frameworks </a></li> 
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(10).pdf" style="text-decoration:none;">A new model for the selection of web development frameworks: application to PHP frameworks </a></li>
+ 
+ 
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(11).pdf" style="text-decoration:none;">PHP Application Architecture</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(12).pdf" style="text-decoration:none;">Selecting A PHP Framework For A Web Application Project — The Method And Case Study</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(13).pdf" style="text-decoration:none;"> Vulnerability Detection of php applications using Php-Code Analyzer before deploying web application</a></li>
+   <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(14).pdf" style="text-decoration:none;">Web Security: Detection of Cross Site Scripting in PHP Web Application using Genetic Algorithm</a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(15).pdf" style="text-decoration:none;">Web Testing Application With PHP Automated Tool </a></li>
+ 
+  <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(16).pdf" style="text-decoration:none;">Client-Side Validation and Verification of PHP Dynamic Websites</a></li>
+  
+   
+ <li><a target="_blank" href="https://github.com/manjunath5496/PHP-Exercises-for-Beginners/blob/master/php(17).pdf" style="text-decoration:none;">PHP Framework for Database Management Based on MVC Pattern </a></li>
+ 
+ 
 
 </ul>
 
