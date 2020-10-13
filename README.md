@@ -34,7 +34,7 @@ Try it Yourself &raquo; </a>
 
 ```php language
 <?php
-$num1 =1;
+$num1=1;
 $num2=5;
 $sum = $num1 + $num2;
 echo "Sum of the two numbers is : $sum";
@@ -61,7 +61,7 @@ Try it Yourself &raquo; </a>
 
 ```php language
 <?php
-$num1 =5;
+$num1=5;
 $num2=1;
 $sub = $num1 - $num2;
 echo "difference of the two numbers is : $sub";
