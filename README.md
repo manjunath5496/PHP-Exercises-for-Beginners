@@ -208,7 +208,7 @@ Try it Yourself &raquo; </a>
 <?php
 $num1 = 6.0;
 $num2 = pow(($num1), 1/3);
-echo("<br> the cube root of a number = $num2");
+echo("The cube root of a number = $num2");
 ?>
 
 
