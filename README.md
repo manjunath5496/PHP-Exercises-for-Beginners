@@ -235,7 +235,7 @@ Try it Yourself &raquo; </a>
 <?php
 $num1 = 4.5;
 $num2 = round ($num1);
-echo("<br> the round off of a number = $num2");
+echo("The round off of a number = $num2");
 ?>
 
 
