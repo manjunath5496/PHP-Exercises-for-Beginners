@@ -208,7 +208,7 @@ Try it Yourself &raquo; </a>
 <?php
 $num1 = 6.0;
 $num2 = pow(($num1), 1/3);
-echo("\n the cube root of a number = $num2");
+echo("</br> the cube root of a number = $num2");
 ?>
 
 
@@ -235,7 +235,7 @@ Try it Yourself &raquo; </a>
 <?php
 $num1 = 4.5;
 $num2 = round ($num1);
-echo("\n the round off of a number = $num2");
+echo("<br> the round off of a number = $num2");
 ?>
 
 
@@ -263,10 +263,10 @@ $num3 = $num1 +1;
 $num4 = $num1 - 1;
 $num5 = $num2 +1;
 $num6 = $num2 - 1;
-echo ("\n The incremented value of  $num1 = $num3 ");
-echo ("\n The decremented value of  $num1 = $num4 ");
-echo ("\n The incremented value of  $num2 = $num5 ");
-echo ("\n The decremented value of  $num2 = $num6 ");
+echo ("<br> The incremented value of  $num1 = $num3 ");
+echo ("<br> The decremented value of  $num1 = $num4 ");
+echo ("<br> The incremented value of  $num2 = $num5 ");
+echo ("<br> The decremented value of  $num2 = $num6 ");
 ?>
 
 
@@ -316,7 +316,7 @@ echo (" y is greater than x");
 ```php language
 <?php
 for ($i=1; $i<=10; $i++)
-echo (" \n $i");
+echo (" <br> $i");
 ?>
 
 
@@ -341,7 +341,7 @@ echo (" \n $i");
 <?php  
 $i = 1;
 while($i <= 10) {
-echo "\n  $i ";
+echo "<br>  $i ";
 $i++;
 } 
 ?>
@@ -370,7 +370,7 @@ $i++;
 <?php  
 $i = 1;
 do {
-echo "\n $i ";
+echo "<br> $i ";
 $i++;
 } while($i <= 9);
 ?>
@@ -403,8 +403,8 @@ $sum = 0;
 for( $i=1; $i<=10; $i++)
 $sum = $sum + $i;
 $avg = $sum/10;
-echo "\n sum of the first 10 numbers = $sum ";
-echo"\n average of the first 10 numbers = $avg  ";
+echo "<br> sum of the first 10 numbers = $sum ";
+echo"<br> average of the first 10 numbers = $avg  ";
 ?>
 
 
