@@ -323,7 +323,7 @@ Try it Yourself &raquo; </a>
 ```php language
 <?php
 for ($i=1; $i<=10; $i++)
-echo (" <br> $i");
+echo ("$i");
 ?>
 
 
