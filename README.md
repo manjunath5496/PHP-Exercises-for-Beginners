@@ -843,6 +843,126 @@ echo "a =".$a."  b=".$b;
 ```
 ----------------------------------------
 
+
+# Question 31
+
+### **Question:**
+
+> ***Write a program to get the PHP version and configuration information..***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```php
+<?php
+phpinfo();
+?>
+```
+----------------------------------------
+# Question 32
+
+### **Question:**
+
+> ***Write a program to Get the client IP address.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```php
+<?php
+//whether ip is from share internet
+if (!empty($_SERVER['HTTP_CLIENT_IP']))   
+  {
+    $ip_address = $_SERVER['HTTP_CLIENT_IP'];
+  }
+//whether ip is from proxy
+elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))  
+  {
+    $ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];
+  }
+//whether ip is from remote address
+else
+  {
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+  }
+echo $ip_address;
+?>
+```
+----------------------------------------
+
+# Question 33
+
+### **Question:**
+
+> ***Write a program to Check whether the page is called from 'https' or 'http'.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```php
+<?php
+if (!empty($_SERVER['HTTPS'])) 
+{
+  echo 'https is enabled';
+}
+else
+{
+echo 'http is enabled'."\n";
+}
+?>
+```
+----------------------------------------
+
+# Question 34
+
+### **Question:**
+
+> ***Write a program to Display source code of a webpage.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```php
+<?php
+$all_lines = file('https://www.w3resource.com/');
+foreach ($all_lines as $line_num => $line)
+ {
+ 	echo "Line No.-{$line_num}: " . htmlspecialchars($line) . "\n";
+ }
+?>
+```
+----------------------------------------
+
+# Question 35
+
+### **Question:**
+
+> ***Write a program to delay the program execution for the given number of seconds.***
+
+----------------------------------------
+
+<strong>Solution: </strong>
+
+```php
+<?php
+// current time
+  echo date('h:i:s') . "\n";
+  // sleep for 5 seconds
+  sleep(5);
+  // wake up
+  echo date('h:i:s')."\n";
+?>
+```
+----------------------------------------
+
+
+
+
+
 </br>
 
 
