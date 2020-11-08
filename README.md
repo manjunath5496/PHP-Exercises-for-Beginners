@@ -848,7 +848,7 @@ echo "a =".$a."  b=".$b;
 
 ### **Question:**
 
-> ***Write a program to get the PHP version and configuration information..***
+> ***Write a program to get the PHP version and configuration information.***
 
 ----------------------------------------
 
